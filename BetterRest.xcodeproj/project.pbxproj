@@ -12,6 +12,7 @@
 		7CFB33642D59248500BABA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFB33632D59248500BABA9B /* Assets.xcassets */; };
 		7CFB33672D59248500BABA9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFB33662D59248500BABA9B /* Preview Assets.xcassets */; };
 		7CFB336E2D5969DB00BABA9B /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB336D2D5969DB00BABA9B /* SleepCalculator.mlmodel */; };
+		7CFB33712D59715C00BABA9B /* BetterRest.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7CFB33702D59715C00BABA9B /* BetterRest.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7CFB33632D59248500BABA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CFB33662D59248500BABA9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7CFB336D2D5969DB00BABA9B /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		7CFB33702D59715C00BABA9B /* BetterRest.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BetterRest.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +67,18 @@
 		7CFB33652D59248500BABA9B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				7CFB336F2D59715C00BABA9B /* training data */,
 				7CFB33662D59248500BABA9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CFB336F2D59715C00BABA9B /* training data */ = {
+			isa = PBXGroup;
+			children = (
+				7CFB33702D59715C00BABA9B /* BetterRest.csv */,
+			);
+			path = "training data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CFB33672D59248500BABA9B /* Preview Assets.xcassets in Resources */,
+				7CFB33712D59715C00BABA9B /* BetterRest.csv in Resources */,
 				7CFB33642D59248500BABA9B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
